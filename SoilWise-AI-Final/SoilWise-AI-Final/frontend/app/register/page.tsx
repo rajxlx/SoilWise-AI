@@ -1,0 +1,2 @@
+import Link from "next/link"; import { AuthForm } from "../auth-form";
+export default function Register(){return <main className="mx-auto max-w-md px-6 py-16"><Link href="/" className="text-leaf">← SoilWise</Link><h1 className="mt-8 text-3xl font-bold">Create your account</h1><p className="mb-8 mt-2 text-gray-600">Start building a history of your fields.</p><AuthForm mode="register"/><p className="mt-6 text-sm">Already registered? <Link className="text-leaf underline" href="/login">Sign in</Link></p></main>}

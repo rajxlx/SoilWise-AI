@@ -1,0 +1,2 @@
+import Link from "next/link"; import { AuthForm } from "../auth-form";
+export default function Login(){return <main className="mx-auto max-w-md px-6 py-16"><Link href="/" className="text-leaf">← SoilWise</Link><h1 className="mt-8 text-3xl font-bold">Welcome back</h1><p className="mb-8 mt-2 text-gray-600">Sign in to view your soil records.</p><AuthForm mode="login"/><p className="mt-6 text-sm">New here? <Link className="text-leaf underline" href="/register">Create an account</Link></p></main>}

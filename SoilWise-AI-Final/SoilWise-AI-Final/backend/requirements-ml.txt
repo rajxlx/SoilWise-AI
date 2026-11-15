@@ -1,0 +1,8 @@
+# Optional training environment; install separately from API runtime.
+# Use a PyTorch wheel matching the target CPU/CUDA platform.
+torch>=2.3,<3.0
+torchvision>=0.18,<1.0
+scikit-learn>=1.5,<2.0
+pandas>=2.2,<3.0
+joblib>=1.4,<2.0
+opencv-python-headless>=4.10,<5.0
